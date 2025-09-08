@@ -1,0 +1,10 @@
+Moodboard for Shopping List App
+
+For the design inspiration, I'm envisioning a clean, modern, and minimalist interface inspired by apps like Todoist or AnyList for shopping lists, with a touch of e-commerce vibes from sites like Takealot (as referenced in the sorting example). Key elements:
+- Color Scheme: Primary blue (#007BFF) for buttons and accents, white (#FFFFFF) for backgrounds, light gray (#F8F9FA) for cards and sections, dark gray (#333) for text. This creates a calm, professional look that's easy on the eyes and blends well.
+- Typography: Consistent use of sans-serif fonts like Roboto or Open Sans. Headings in bold (font-weight: 700), body text in regular (font-weight: 400). Sizes: 24px for titles, 16px for body, 14px for labels.
+- Layout: Responsive grid-based layout using CSS Flexbox or Grid. Top navigation bar with links to Home, Profile, Logout. Cards for shopping lists with images, names, quantities, etc. Mobile-friendly with hamburger menu for small screens.
+- Icons: Use free icons from Font Awesome or Material Icons for add/edit/delete actions, search, sort.
+- Visual Appeal: Subtle shadows on cards for depth, hover effects (color change to lighter blue, cursor pointer). Notifications as toasts (using react-toastify) in green for success, red for errors.
+- Intuitiveness: Clear buttons like "Add List", search bar at top, sortable table or list view. Flow: Login/Register → Home (lists) → Profile (edit info).
+- Inspirations: Screenshots from Todoist (simple lists), Google Keep (categories/tags), and Bootstrap for responsive components.
