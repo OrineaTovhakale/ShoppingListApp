@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { RootState } from './store';
+import type { RootState } from './store';
 import Navbar from './components/Navbar';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Home from './pages/Home';
-import Profile from './pages/Profile';
+import Login from './pages/Login.tsx';
+import Register from './pages/Register.tsx';
+import Home from './pages/Home.tsx';
+import Profile from './pages/Profile.tsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
